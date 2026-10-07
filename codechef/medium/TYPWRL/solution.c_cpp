@@ -8,11 +8,8 @@ int main() {
     {
         int N,M;
         cin >> N >> M;
-        string S[N];
-        for (int i=0;i<N;i++)
-        {
-            cin >> S[i];
-        }
+        string S;
+        cin >> S;
         
     }
 return 0;
