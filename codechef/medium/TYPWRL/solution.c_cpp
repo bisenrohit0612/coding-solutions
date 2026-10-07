@@ -10,6 +10,8 @@ int main() {
         cin >> N >> M;
         string S;
         cin >> S;
+        string L;
+        cin >> L;
         
     }
 return 0;
