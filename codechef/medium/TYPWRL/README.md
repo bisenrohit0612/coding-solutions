@@ -62,7 +62,7 @@ abcdefghijklmnopqrstuvwxyz
 **Language:** c_cpp  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-10-07T15:19:55.824Z  
+**Submitted:** 2026-10-07T15:22:37.825Z  
 
 ```c_cpp
 #include <bits/stdc++.h>
@@ -77,6 +77,8 @@ int main() {
         cin >> N >> M;
         string S;
         cin >> S;
+        string L;
+        cin >> L;
         
     }
 return 0;
