@@ -62,7 +62,7 @@ abcdefghijklmnopqrstuvwxyz
 **Language:** c_cpp  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-10-07T15:22:37.825Z  
+**Submitted:** 2026-10-07T15:18:25.414Z  
 
 ```c_cpp
 #include <bits/stdc++.h>
@@ -75,10 +75,11 @@ int main() {
     {
         int N,M;
         cin >> N >> M;
-        string S;
-        cin >> S;
-        string L;
-        cin >> L;
+        string S[N];
+        for (int i=0;i<N;i++)
+        {
+            cin >> S[i];
+        }
         
     }
 return 0;
