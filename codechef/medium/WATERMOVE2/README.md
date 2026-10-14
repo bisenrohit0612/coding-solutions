@@ -58,7 +58,7 @@ Output
 **Language:** c_cpp  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-10-14T10:23:33.677Z  
+**Submitted:** 2026-10-14T10:24:55.037Z  
 
 ```c_cpp
 #include <bits/stdc++.h>
@@ -78,21 +78,21 @@ int main(){
         }
         if (K>=N)
         {
-            int sum=0;
+            int sum1=0;
             for (int j=0;j<N;j++)
             {
-                sum+=A[j];
+                sum1=sum1+A[j];
             }
-            cout << sum << endl;
+            cout << sum1 << endl;
         }
         else
         {
-            int sum=0;
+            int sum2=0;
             for (int j=1;j<=K;j++)
             {
-                int sum=sum+A[N-j];
+                int sum2=sum2+A[N-j];
             }
-            cout << sum << endl;
+            cout << sum2 << endl;
         }
     }
 return 0;
