@@ -58,7 +58,7 @@ Output
 **Language:** c_cpp  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-10-14T16:22:39.327Z  
+**Submitted:** 2026-10-14T16:23:00.516Z  
 
 ```c_cpp
 #include <bits/stdc++.h>
@@ -72,7 +72,7 @@ int main() {
         int N, K;
         cin >> N >> K;
         int A[N];
-        std::sort(A.begin(), B.end());
+        sort(A.begin(), A.end());
         for (int i = 0; i < N; i++)
         {
             cin >> A[i];
