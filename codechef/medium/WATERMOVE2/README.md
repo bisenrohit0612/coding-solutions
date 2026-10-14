@@ -58,7 +58,7 @@ Output
 **Language:** c_cpp  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-10-14T16:17:53.135Z  
+**Submitted:** 2026-10-14T16:22:39.327Z  
 
 ```c_cpp
 #include <bits/stdc++.h>
@@ -72,6 +72,7 @@ int main() {
         int N, K;
         cin >> N >> K;
         int A[N];
+        std::sort(A.begin(), B.end());
         for (int i = 0; i < N; i++)
         {
             cin >> A[i];
@@ -90,7 +91,7 @@ int main() {
             int sum2 = 0;
             for (int j = 1; j <= K; j++)
             {
-                int sum2 = sum2 + A[N - j];
+                sum2 = sum2 + A[N - j];
             }
             cout << sum2 << endl;
         }
