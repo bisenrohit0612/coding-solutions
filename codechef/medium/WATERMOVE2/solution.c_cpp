@@ -1,37 +1,36 @@
 #include <bits/stdc++.h>
-
 using namespace std;
 
-int main() {
+int main(){
     int T;
     cin >> T;
     while (T--)
     {
-        int N, K;
+        int N,K;
         cin >> N >> K;
         int A[N];
-        for (int i = 0; i < N; i++)
+        for (int i=0;i<N;i++)
         {
             cin >> A[i];
         }
-        if (K > N-1)
+        if (K>N)
         {
-            int sum1 = 0;
-            for (int j = 0; j < N; j++)
+            int sum1=0;
+            for (int j=0;j<N;j++)
             {
-                sum1 = sum1 + A[j];
+                sum1=sum1+A[j];
             }
             cout << sum1 << endl;
         }
         else
         {
-            int sum2 = 0;
-            for (int j = 1; j <= K; j++)
+            int sum2=0;
+            for (int j=1;j<=K;j++)
             {
-                int sum2 = sum2 + A[N - j];
+                int sum2=sum2+A[N-j];
             }
             cout << sum2 << endl;
         }
     }
-    return 0;
+return 0;
 }
