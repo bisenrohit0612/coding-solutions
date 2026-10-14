@@ -58,7 +58,7 @@ Output
 **Language:** c_cpp  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-10-14T10:24:55.037Z  
+**Submitted:** 2026-10-14T10:26:05.009Z  
 
 ```c_cpp
 #include <bits/stdc++.h>
@@ -76,7 +76,7 @@ int main(){
         {
             cin >> A[i];
         }
-        if (K>=N)
+        if (K>N)
         {
             int sum1=0;
             for (int j=0;j<N;j++)
