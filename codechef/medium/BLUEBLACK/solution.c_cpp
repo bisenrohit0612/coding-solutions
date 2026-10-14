@@ -2,6 +2,8 @@
 using namespace std;
 
 int main() {
-	// your code goes here
-
+    int A,B;
+    cin >> A >> B;
+    cout << min(3*A,A+B) << endl;
+return 0;
 }
