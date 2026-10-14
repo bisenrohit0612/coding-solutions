@@ -13,7 +13,7 @@ int main(){
         {
             cin >> A[i];
         }
-        if (K>=N)
+        if (K>N)
         {
             int sum1=0;
             for (int j=0;j<N;j++)
